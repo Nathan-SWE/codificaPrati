@@ -15,7 +15,7 @@ Este repositório tem o proposito de servir como armazenamento para listas de ex
 2. Acessar pasta do projeto
 
    ```bash
-   cd +prati-codifica
+   cd codificaPrati
    ```
 
 3. instalar dependências
