@@ -7,6 +7,7 @@ while (continuar) {
   console.log("0 - Sair.");
   console.log("1 - Verificar se número é par ou impar.");
   console.log("2 - Classificar idade.");
+  console.log("3 - Classificar nota");
 
   const opcao = Number(prompt("Escolha uma opção: "));
 
@@ -24,6 +25,7 @@ while (continuar) {
         console.log(`\n${numero} é impar\n`);
       }
       break;
+
     case 2:
       const idade = Number(prompt("Digite a idade: "));
       if (idade < 12) {
@@ -34,6 +36,17 @@ while (continuar) {
         console.log("Adulto");
       } else {
         console.log("idoso");
+      }
+      break;
+
+    case 3:
+      const nota = Number(prompt("Digite a nota (0 a 10): "));
+      if (nota >= 7) {
+        console.log("Aprovado");
+      } else if (nota >= 5) {
+        console.log("Recuperação");
+      } else {
+        console.log("Reprovado");
       }
       break;
   }
